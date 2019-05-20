@@ -1,0 +1,92 @@
+
+.RecipeCard {
+
+    //background-color: orangered;
+    width: 52.4rem;
+    height: 26.3rem;
+    display: flex;
+
+    &__img {
+        width: 60%;
+        height: 100%;
+        margin: auto;
+        border-radius: 3rem;
+
+        & img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            border-radius: 3rem;
+        }
+
+    }
+
+    &__info {
+
+        height: 100%;
+        width: 40%;
+        background-color: #FFFFFF;
+        margin: auto;
+        border-radius: 3rem;
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+        box-sizing: border-box;
+
+
+        &--header {
+            font-size: 1.5rem;
+            border-bottom: 1px solid black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        &--desc {
+            font-size: 0.9rem;
+            padding: 0;
+            margin: 0;
+        }
+
+        &--time {
+
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-evenly;
+            box-sizing: border-box;
+            padding: 1rem 2.5rem;
+            margin: auto;
+
+            & img {
+                width: 2.3rem;
+                margin: auto;
+            }
+
+            & p {
+                margin: auto;
+            }
+
+        }
+
+        &--servings {
+
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-evenly;
+            box-sizing: border-box;
+            padding: 1rem 2.5rem;
+
+            & img {
+                width: 2.3rem;
+                margin: auto;
+            }
+
+            & p {
+                margin: auto;
+            }
+
+        }
+    }
+    
+}

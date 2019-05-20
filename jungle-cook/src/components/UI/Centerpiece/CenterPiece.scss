@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+
+.Centerpiece {
+
+    margin: auto;
+    width: 50rem;
+    height: 35rem;
+
+    &__circle--big {
+        background-color: #FFD972;
+        border-radius: 50%;
+        z-index: 100;
+        width: 36rem;
+        height: 36rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+
+        &__text {
+            margin: auto;
+            text-align: center;
+            width: 16rem;
+
+            & h3 {
+                font-family: 'Caveat', cursive;
+                font-size: 2.4rem;
+            }
+        }
+    }
+
+    &__circle--small {
+        background-color: #FCBCB8;
+        z-index: 75;
+        border-radius: 50%;
+        width: 16.8rem;
+        height: 16.8rem;
+        display: flex;
+        position: relative;
+        right: -29.5rem;
+        top: -40.2rem;
+
+        &__text {
+            margin: auto;
+            width: 10.6rem;
+            text-align: center;
+        }
+    }
+
+}

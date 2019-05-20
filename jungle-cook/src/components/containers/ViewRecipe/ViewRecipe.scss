@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Lato:400,700');
+.ViewRecipe {
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12rem;
+    padding-top: 10rem;
+
+    &__header {
+
+        margin: auto;
+        background-color: orangered;
+        width: 80%;
+        align-content: center;
+        display: flex;
+
+        &--verticalTxt {
+            transform: rotate(-90deg);
+            display: inline-block;
+            margin: auto;
+            white-space: nowrap;
+            font-size: 2.5rem;
+            min-width: 8rem;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+
+
+        }
+
+        & img {
+            object-fit: cover;
+            width: 46.8rem;
+            height: 46.8rem;
+            margin: auto;
+
+        }
+
+        &--txt {
+            line-height: 2rem;
+            box-sizing: border-box;
+            padding: 0 3rem 0 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+
+            & h2 {
+                font-size: 2.5rem;
+                
+            }
+
+            & h3 {
+                font-size: 2rem;
+                
+            }
+
+            & p {
+                font-family: 'Caveat', cursive;
+                font-size: 2rem;
+            }
+        }
+
+    }
+
+    &__ingredients {
+
+        margin: auto;
+        background-color: rebeccapurple;
+        width: 80%;
+
+        & h3 {
+            font-family: 'Lato', sans-serif;
+            font-size: 2.5rem;
+        }
+    }
+
+    &__instructions {
+
+        margin: auto;
+        background-color: green;
+        width: 80%;
+
+        & h3 {
+            font-family: 'Lato', sans-serif;
+            font-size: 2.5rem;
+        }
+    }
+
+    & Button {
+        max-width: 25rem;
+        white-space: nowrap;
+        margin: 5rem auto;
+    }
+
+}

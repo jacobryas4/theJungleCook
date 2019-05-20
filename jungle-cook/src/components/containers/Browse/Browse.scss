@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+
+.Browse {
+
+    display: flex;
+    background-image: 
+        linear-gradient(to bottom, rgba(167, 232, 189, 0.5), rgba(167, 232, 189, 0.5)),
+        url('../../../assets/images/browse.png');
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__container {
+
+        width: 100vw;
+        height: 80vh;
+        margin: auto 0;
+        display: flex;
+        flex-direction: column;
+
+        &--header {
+            margin: 0 auto 0 16rem;
+            font-family: 'Caveat', cursive;
+            font-size: 2.5rem; 
+        }
+
+        &--cards {
+
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-items: center;
+            grid-gap: 5rem;
+            width: 85vw;
+            margin: 2rem auto;
+            
+
+        }
+
+    }
+}

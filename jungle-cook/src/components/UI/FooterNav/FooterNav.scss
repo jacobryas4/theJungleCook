@@ -1,0 +1,49 @@
+
+.FooterNav {
+
+    background-color: rgba(0,0,0,0);
+    // position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    height: 12rem;
+    
+
+    &__copyright {
+        display: flex;
+        margin: 0;
+        padding: 2rem;
+
+        & p {
+            margin: auto;
+        }
+    }
+
+    &__links {
+        display: flex;
+        margin: 0;
+        justify-content: space-between;
+        padding: 2rem;
+
+        & p {
+            margin: auto;
+            padding: 2rem;
+        }
+    }
+
+    &__social {
+        display: flex;
+        margin: 0;
+        padding: 2rem;
+
+        &--icon {
+            width: 2rem;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+    }
+
+}
